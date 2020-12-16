@@ -1,0 +1,42 @@
+{
+    "articles": [
+        {
+            "title": "hola",
+            "slug": "hola-wp2ldp",
+            "body": "hola",
+            "createdAt": "2020-12-16T13:35:51.998Z",
+            "updatedAt": "2020-12-16T13:35:51.998Z",
+            "tagList": [],
+            "description": "hola",
+            "author": {
+                "username": "Mati",
+                "bio": null,
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            },
+            "favorited": false,
+            "favoritesCount": 1
+        },
+        {
+            "title": "Here's the name of a thing",
+            "slug": "here-s-the-name-of-a-thing-ftcc35",
+            "body": "# here it is!\n\nThe thing you've all been waiting for",
+            "createdAt": "2020-12-16T13:26:13.792Z",
+            "updatedAt": "2020-12-16T13:26:13.792Z",
+            "tagList": [
+                "stuff",
+                "cool"
+            ],
+            "description": "What's that, though?",
+            "author": {
+                "username": "name_is_name",
+                "bio": null,
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            },
+            "favorited": false,
+            "favoritesCount": 5
+        }
+    ],
+    "articlesCount": 500
+}
