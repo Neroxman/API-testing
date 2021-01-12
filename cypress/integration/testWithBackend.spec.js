@@ -5,7 +5,6 @@ context('Test with backend', () => {
     })
 
     it('verify correct request and response', () => {
-
         cy.intercept('POST', '**/articles').as('postArticles')
 
         cy.contains('New Article').click()
@@ -82,7 +81,6 @@ context('Test with backend', () => {
     })
 
     it('delete a new article in a global feed', () => {
-
         const userCondetials = {
             "user": {
                 "email": "brzezickim05@gmail.com",
