@@ -81,13 +81,6 @@ context('Test with backend', () => {
     })
 
     it('delete a new article in a global feed', () => {
-        const userCondetials = {
-            "user": {
-                "email": "brzezickim05@gmail.com",
-                "password": "cypresstest"
-            }
-        }
-
         const bodyRequest = {
             "article": {
                 "tagList": [],
@@ -97,10 +90,7 @@ context('Test with backend', () => {
             }
         }
 
-        cy.request('POST', 'https://conduit.productionready.io/api/users/login', userCondetials)
-            .its('body').then(body => {
-                const token = body.user.token
-
+        cy.get('@token').then(token => {
                 cy.request({
                     url: 'https://conduit.productionready.io/api/articles/',
                     headers: {'Authorization': 'Token ' + token},
